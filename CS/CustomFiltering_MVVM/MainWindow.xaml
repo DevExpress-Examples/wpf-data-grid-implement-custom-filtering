@@ -1,0 +1,35 @@
+﻿<Window x:Class="CustomFiltering_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+        xmlns:local="clr-namespace:CustomFiltering_MVVM"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.DataContext>
+        <local:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="36" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <CheckBox Margin="7,0,7,0"
+                      VerticalAlignment="Center" 
+                      Content="Hide Even Rows"
+                      IsChecked="{Binding HideEvenItems}" />
+            <CheckBox VerticalAlignment="Center"
+                      Content="Hide Odd Rows"
+                      IsChecked="{Binding HideOddItems}" />
+        </StackPanel>
+        <dxg:GridControl Grid.Row="1" 
+                         AutoGenerateColumns="AddNew"
+                         ItemsSource="{Binding Items}"
+                         CustomRowFilterCommand="{Binding CustomRowFilterCommand}">
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True"
+                               ShowGroupPanel="False"
+                               NavigationStyle="None" />
+            </dxg:GridControl.View>
+        </dxg:GridControl>
+    </Grid>
+</Window>
