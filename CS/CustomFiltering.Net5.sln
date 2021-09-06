@@ -1,10 +1,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CustomFiltering_MVVM", "CustomFiltering_MVVM\CustomFiltering_MVVM.vbproj", "{C88FFBBE-3818-412F-B53B-7DB025225B84}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFiltering_MVVM", "CustomFiltering_MVVM\CustomFiltering_MVVM.Net5.csproj", "{C88FFBBE-3818-412F-B53B-7DB025225B84}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CustomFiltering_CodeBehind", "CustomFiltering_CodeBehind\CustomFiltering_CodeBehind.vbproj", "{F57A429F-BCFB-4697-9763-97A7000E37E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomFiltering_CodeBehind", "CustomFiltering_CodeBehind\CustomFiltering_CodeBehind.Net5.csproj", "{F57A429F-BCFB-4697-9763-97A7000E37E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
