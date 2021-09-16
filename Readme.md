@@ -40,4 +40,5 @@ If you want to maintain a clean MVVM pattern and specify custom filter operation
 ## More Examples
 
 - [How to Create a Custom Filter Dropdown](https://github.com/DevExpress-Examples/how-to-create-a-custom-filter-dropdown-e1616)
-- [How to customize filter items within a column's Filter Dropdown](https://github.com/DevExpress-Examples/how-to-customize-filter-items-within-a-columns-filter-dropdown-e1533)
+- [How to Specify Row Visibility in the ViewModel](https://github.com/DevExpress-Examples/how-to-specify-row-visibility-in-the-viewmodel-e4174)
+- [How to Customize Filter Items within a Column's Filter Dropdown](https://github.com/DevExpress-Examples/how-to-customize-filter-items-within-a-columns-filter-dropdown-e1533)
