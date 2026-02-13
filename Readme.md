@@ -44,7 +44,7 @@ If you want to maintain a clean MVVM pattern and specify custom filter operation
 - [How to Specify Row Visibility in the ViewModel](https://github.com/DevExpress-Examples/how-to-specify-row-visibility-in-the-viewmodel-e4174)
 - [How to Customize Filter Items within a Column's Filter Dropdown](https://github.com/DevExpress-Examples/how-to-customize-filter-items-within-a-columns-filter-dropdown-e1533)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-implement-custom-filtering&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-data-grid-implement-custom-filtering&~~~was_helpful=no)
 
